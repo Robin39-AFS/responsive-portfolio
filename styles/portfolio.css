@@ -64,7 +64,8 @@ nav a{
 }
 .profile-pic{
     width: 500px;
-    margin-bottom: -2.8em; 
+    margin-bottom: -2.64em;
+    border-radius: 25px; 
 }
 .banner-greeting{
     font-size: 45px;
@@ -218,9 +219,7 @@ footer{
     }
     .banner .profile-pic{
         width: 100%;
-    }
-    .profile-pic{
-        margin-bottom: 0;
+        margin-bottom: auto;
     }
     #what-i-do-description, .banner{
         padding: 0 20px;
@@ -248,6 +247,9 @@ footer{
     }
     .banner .profile-pic{
         width: 100%;
+        margin-bottom: auto;
+    }
+    
     footer{
         padding: 30px;
 
