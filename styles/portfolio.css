@@ -219,8 +219,11 @@ footer{
     .banner .profile-pic{
         width: 100%;
     }
+    .profile-pic{
+        margin-bottom: 0;
+    }
     #what-i-do-description, .banner{
-        padding: 20px;
+        padding: 0 20px;
     }
     footer, .about{
         flex-direction: column;
